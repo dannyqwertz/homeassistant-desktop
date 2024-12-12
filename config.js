@@ -6,9 +6,9 @@ module.exports = new Store({
     automaticSwitching: true,
     detachedMode: false,
     disableHover: false,
-    stayOnTop: false,
+    stayOnTop: true,
     fullScreen: false,
-    shortcutEnabled: false,
+    shortcutEnabled: true,
     allInstances: []
   }
 });

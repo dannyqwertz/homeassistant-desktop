@@ -48,7 +48,7 @@ let updateCheckerInterval;
 let availabilityCheckerInterval;
 
 function registerKeyboardShortcut() {
-  globalShortcut.register('CommandOrControl+Alt+X', () => {
+  globalShortcut.register('Shift+CommandOrControl+Alt+Z', () => {
     if (mainWindow.isVisible()) {
       mainWindow.hide();
     } else {
